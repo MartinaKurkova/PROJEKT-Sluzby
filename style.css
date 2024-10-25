@@ -1,0 +1,92 @@
+html { box-sizing: border-box; }
+*, :after, :before { box-sizing: inherit; }
+
+body {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    margin: auto 20px;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: #FAFAFA;
+}
+
+/* images */
+.traveler {
+    margin-top: 60px;
+    width: 290px;
+    width: auto;
+    margin: 60px auto 40px auto;
+}
+
+/* paragraph styles */
+h1 {
+    font-weight: 600;
+    font-size: 28px;
+    margin: 0;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 16px; 
+    margin-top: 60px;
+}
+
+p {
+    color: #8B8B8B;
+    font-weight: 300;
+    margin: 15px auto 30px auto;
+}
+
+.line {
+    width: 60px;
+    height: 2px;
+    background-color: #407BFF;
+    margin: 10px auto 30px auto;
+}
+
+/* flexboxy */
+.box {
+    background-color: white;
+    display: flex;
+    box-shadow: 0 4px 6px #407BFF1F; 
+    margin: 0 auto 15px auto;
+    padding: 20px;
+    justify-content: center;
+    font-size: 13px;
+    border-radius: 20px;
+    height: 80px;
+}
+
+.box img {
+    padding-right: 20px;
+}
+
+/* buttons*/
+.buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.button {
+    font-size: 14px;
+    color: white;
+    background-color: #407BFF;
+    padding: 10px 30px;
+    margin: 5px;
+    border-radius: 20px;
+    width:fit-content;
+    box-sizing: border-box;
+    height: 40px;
+}
+
+.grey {
+    background-color: #8B8B8B;
+
+}
+
+.van {
+    margin-bottom: 60px;
+}
